@@ -1,0 +1,70 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  width: 90%;
+  margin: auto;
+}
+
+nav {
+  background-color: #82c5ef;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+
+}
+
+.logo a {
+  color: #030408;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  color: rgb(6, 6, 10);
+  text-decoration: none;
+}
+
+.tbl-pink {
+  background-color: pink;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: rgb(12, 12, 12);
+  border-radius: 8px;
+}
+
+.kolom {
+  padding: 30px;
+}
+
+.animasi-gambar {
+  max-width: 50%;
+  animation: goyang 2s infinite;
+}
+
+@keyframes goyang {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(1deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.kuis-box {
+  margin-top: 20px;
+}
+
+.kuis-box input, .kuis-box button {
+  padding: 10px;
+  margin: 5px 0;
+}
